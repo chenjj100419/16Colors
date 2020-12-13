@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    background-image: url("background.png");
+}
+
+.colors {
+    width: 100%;
+    height: 100%;
+}
+
+.colors p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.colors div {
+    float: left;
+    width: 25%;
+    height: 20%;
+    box-shadow: 3px 3px 2px black,
+                -3px -3px 2px white;
+}
+
+.colors .red {
+    background-color: #FF0000;
+}
+
+.colors .orange {
+    background-color: #FF7D00;
+}
+
+.colors .yellow {
+    background-color: #FFFF00;
+}
+
+.colors .green {
+    background-color: #00FF00;
+}
+
+.colors .young {
+    background-color: #00FFFF;
+}
+
+.colors .blue {
+    background-color: #0000FF;
+}
+
+.colors .purple {
+    background-color: #FF00FF;
+}
+
+.colors .black {
+    background-color: #000000;
+}
+
+.colors .white {
+    background-color: #FFFFFF;
+}
+
+.colors .navy {
+    background-color: #000080;
+}
+
+.colors .darkSlateGray {
+    background-color: #2F4F4F;
+}
+
+.colors .indigo {
+    background-color: #4B0082;
+}
+
+.colors .steelBlue {
+    background-color: #4682B4;
+}
+
+.colors .cadetBlue {
+    background-color: #5F9EA0;
+}
+
+.colors .teal {
+    background-color: #008080;
+}
+
+.colors .auqamarin {
+    background-color: #7FFFAA;
+}
+
+.colors .mediumAquamarine {
+    background-color: #00FA9A;
+}
+
+.colors .gold {
+    background-color:#FFD700;
+}
+
+.colors .tan {
+    background-color:#D2B48C;
+}
+
+.colors .silver {
+    background-color: #C0C0C0;
+}
+
+.colors div:hover {
+    transition: 0.25s;
+    transform: rotateX(1deg)
+}
+/*
+    position:absolute;
+    width:100%;
+    height:100%;
+*/
